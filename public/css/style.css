@@ -1,0 +1,89 @@
+.nav-logo {
+    background: white;
+    border-radius: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.book-title {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.book-title:hover {
+    color: var(--bs-teal);
+    text-decoration: underline;
+}
+
+.discount {
+    color: gray;
+    margin-left: 10px;
+}
+
+/* book CARD */
+.book-card {
+    margin-bottom: 20px;
+}
+.book-card .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.slider-image {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* contact */
+.heading {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 2px dotted #000;
+    color: #000;
+}
+
+.icon {
+    font-family: monospace;
+    font-size: 17px;
+}
+.follow {
+    font-weight: bold;
+    color: #000;
+    text-shadow: 0px 0px 4px gray;
+    font-size: 22px;
+}
+.submit {
+    color: #000;
+    text-shadow: 0px 0px 4px gray;
+    font-size: 22px;
+}
+.free {
+    color: #000;
+    text-shadow: 0px 0px 4px gray;
+    font-size: 25px;
+}
+
+.card-title {
+    font-weight: bold;
+}
